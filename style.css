@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 4rem;
+    line-height: 150%;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+main{
+    background-color: black;
+    color: white;
+
+}
+main h2{
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+main article{
+    margin: 5%;
+}
+
+main article p, blockquote, footer p{
+    font-size: 24px;
+    line-height: 120%;
+}
+
+ul{
+    margin: 3% auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+ul li:hover{
+    background-color: white;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+figcaption{
+    margin-left: 1%;
+}
+figcaption a{
+    color: white; 
+}
+img{
+    border-radius: 10px;
+    width: 80px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+}
+footer a{
+    color: black;
+}
